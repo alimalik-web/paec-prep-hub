@@ -461,7 +461,7 @@ export default function App() {
   ];
 
   return (
-    <div className="app-container">
+    <div>
       <AppHeader discipline={discipline} lang={lang} setLang={setLang} />
 
       {/* Discipline Toggle */}
